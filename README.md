@@ -18,6 +18,7 @@ I encourage feedback and please let me know where things can or should be refact
     * This example utilizes a join entity to support the many-to-many functionality. Which adds some complexity but the sample code should help you better understand how to use the join entity.
   * Use stored procedures for inserting, updating, and deleting
     * Right now it really looks like you can only call stored procedures pull data. (*This needs to be further verified*)
+
 ## Notable things I learned
 * Tag Helpers not seeing model changes on validation reposts.  This is a good explaination from Rick Strahl on what is going on [ASP.NET MVC Postbacks and HtmlHelper Controls ignoring Model Changes ](https://weblog.west-wind.com/posts/2012/Apr/20/ASPNET-MVC-Postbacks-and-HtmlHelper-Controls-ignoring-Model-Changes)
   * Yo can see how I worked around this issue in the DepartmentController Edit function and the Department Edit view.  Look for the RowVersion and the validation logic in the views.
