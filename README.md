@@ -4,7 +4,7 @@ This project is based off the tutorial and project [Getting Started with Entity 
 
 I encourage feedback and please let me know where things can or should be refactored to make them easier to understand or more efficient.  This was a first go round at matching functionality from the original and there is probably ample room for improvment. 
 
-### This project was built with Visual Studion 2015 Update 3.  You can use other Dev tools like Visual Studio Code but this source should just load right up into VS 2015 update 3 and compile and run.
+### This project was built with Visual Studion 2015 Update 3.  You can use other Dev tools like Visual Studio Code but this source should just load right up into VS 2015 update 3 and compile and run. You also need to add [NET Core 1.0 for Visual Studio](https://go.microsoft.com/fwlink/?LinkId=817245)
 
 ## Additonal Features
 * Generic Repository Pattern
