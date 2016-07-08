@@ -42,7 +42,7 @@ namespace ContosoUniversity
             
 
             services.AddDbContext<SchoolContext>(options =>
-                    options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ContosoUniversityContext-9b760ffa-37f6-46da-a80b-9a565463b7b6;Trusted_Connection=True;MultipleActiveResultSets=true"));
+                    options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ContosoUniversityContext-9b760ffa-37f6-46da-a80b-9a565463b7b6;Trusted_Connection=True;MultipleActiveResultSets=true;"));
 
             // Add default bootstrap-styled pager implementation
             services.AddBootstrapPagerGenerator(options =>
