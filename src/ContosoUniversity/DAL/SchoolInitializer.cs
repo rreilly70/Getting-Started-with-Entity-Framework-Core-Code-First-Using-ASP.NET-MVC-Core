@@ -4,7 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace ContosoUniversity.DAL
 {
@@ -15,6 +14,8 @@ namespace ContosoUniversity.DAL
             using (var context = new SchoolContext(
                     serviceProvider.GetRequiredService<DbContextOptions<SchoolContext>>()))
             {
+                context.Database.Migrate();
+
                 if (context.Students.Any() || context.Enrollments.Any() || context.Courses.Any() || context.Departments.Any() || context.Instructors.Any() || context.OfficeAssignments.Any())
                 {
                     return;

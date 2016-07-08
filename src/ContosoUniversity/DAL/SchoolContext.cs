@@ -1,19 +1,12 @@
 ﻿using ContosoUniversity.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ContosoUniversity.DAL
 {
     public class SchoolContext : DbContext
     {
 
-        public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)
-        {
-            
-        }
+        public SchoolContext(DbContextOptions<SchoolContext> options) : base(options) { }
         public DbSet<Student> Students { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Course> Courses { get; set; }
@@ -21,11 +14,11 @@ namespace ContosoUniversity.DAL
 
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<OfficeAssignment> OfficeAssignments { get; set; }
+        
         public DbSet<Person> People { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<CourseInstructor>()
                 .HasKey(ci => new { ci.CourseId, ci.InstructorId });
 

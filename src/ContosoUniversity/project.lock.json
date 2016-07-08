@@ -2280,7 +2280,7 @@
           }
         }
       },
-      "Sakura.AspNetCore.Mvc.PagedList/2.0.2": {
+      "Sakura.AspNetCore.Mvc.PagedList/2.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0",
@@ -2320,7 +2320,7 @@
           "lib/netstandard1.0/Sakura.AspNetCore.PagedList.Abstractions.dll": {}
         }
       },
-      "Serilog/2.0.0": {
+      "Serilog/2.1.0-dev-00670": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
@@ -2397,7 +2397,7 @@
           "lib/netstandard1.3/Serilog.Sinks.Literate.dll": {}
         }
       },
-      "Serilog.Sinks.RollingFile/2.0.0": {
+      "Serilog.Sinks.RollingFile/2.1.0": {
         "type": "package",
         "dependencies": {
           "Serilog": "2.0.0",
@@ -4987,7 +4987,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Common/1.3.0": {
-      "sha512": "zYo3yXN5I/IeRpWg2gXli5D4R49PlkzDuJd00J9sY5FpfRrgj2gJwdTjdihbUg+fJKt0TTXwiIU7U+61PbdN6A==",
+      "sha512": "V09G35cs0CT1C4Dr1IEOh8IGfnWALEVAOO5JXsqagxXwmYR012TlorQ+vx2eXxfZRKs3gAS/r92gN9kRBLba5A==",
       "type": "package",
       "files": [
         "Microsoft.CodeAnalysis.Common.1.3.0.nupkg.sha512",
@@ -5002,7 +5002,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.CSharp/1.3.0": {
-      "sha512": "pWFU4tQagKiLtC0xIcadBsuiok9JBoiJ/x0UUMOEEBgKM6/f0RCVv1PowuZgPNGeA40h+BqPq7BL2IV39FgtPw==",
+      "sha512": "BgWDIAbSFsHuGeLSn/rljLi51nXqkSo4DZ0qEIrHyPVasrhxEVq7aV8KKZ3HEfSFB+GIhBmOogE+mlOLYg19eg==",
       "type": "package",
       "files": [
         "Microsoft.CodeAnalysis.CSharp.1.3.0.nupkg.sha512",
@@ -5033,7 +5033,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.VisualBasic/1.3.0": {
-      "sha512": "M2pBLXaPZF/9anC6FPqIguf9SOY/TBjFLcb63lcnwDRWxhh9v2k9+qu+TptOA/7ThFaOTObmXWpMU+hs/7PJ4w==",
+      "sha512": "Sf3k8PkTkWqBmXnnblJbvb7ewO6mJzX6WO2t7m04BmOY5qBq6yhhyXnn/BMM+QCec3Arw3X35Zd8f9eBql0qgg==",
       "type": "package",
       "files": [
         "Microsoft.CodeAnalysis.VisualBasic.1.3.0.nupkg.sha512",
@@ -5611,7 +5611,7 @@
       ]
     },
     "Microsoft.NETCore.App/1.0.0": {
-      "sha512": "J6bGAM8eYJBiUVWFs10vemZL23m0Cx8PY14d0tSC/LIOSphsUZXfUMtvbyskucJuVY0lYVUXZNqsCwf+kAVj2g==",
+      "sha512": "Bv40dLDrT+Igcg1e6otW3D8voeJCfcAxOlsxSVlDz+J+cdWls5kblZvPHHvx7gX3/oJoQVIkEeO3sMyv5PSVJA==",
       "type": "package",
       "files": [
         "Microsoft.NETCore.App.1.0.0.nupkg.sha512",
@@ -5622,7 +5622,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHost/1.0.1": {
-      "sha512": "LbkbC34hzsjoDiSPCcuItVCdavIqtaJhYrpKPawD/WjFIigTNYdZzeKKw4Zzt8bVSBUvyn+fEAwaywRva7MujQ==",
+      "sha512": "uaMgykq6AckP3hZW4dsD6zjocxyXPz0tcTl8OX7mlSUWsyFXdtf45sjdwI0JIHxt3gnI6GihAlOAwYK8HE4niQ==",
       "type": "package",
       "files": [
         "Microsoft.NETCore.DotNetHost.1.0.1.nupkg.sha512",
@@ -5633,7 +5633,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/1.0.1": {
-      "sha512": "M+wFPJGyAL5gLI1Kz3IkPaIpQdDAOCRNrL5l3pociUDPvQXUgKIH+XbBaPLvbeHpV9L02VTW5YRtNZe3COgDAw==",
+      "sha512": "d8AQ+ZVj2iK9sbgl3IEsshCSaumhM1PNTPHxldZAQLOoI1BKF8QZ1zPCNqwBGisPiWOE3f/1SHDbQi1BTRBxuA==",
       "type": "package",
       "files": [
         "Microsoft.NETCore.DotNetHostPolicy.1.0.1.nupkg.sha512",
@@ -5644,7 +5644,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/1.0.1": {
-      "sha512": "wgABWAvek4rR2MQnZzW6N+cf09txNnJgPZE729KsE5bPKzGuhcaMPctyl9dpHNHJ9VIXFTpCC8562wTNgOizjw==",
+      "sha512": "GEXgpAHB9E0OhfcmNJ664Xcd2bJkz2qkGIAFmCgEI5ANlQy4qEEmBVfUqA+Z9HB85ZwWxZc1eIJ6fxdxcjrctg==",
       "type": "package",
       "files": [
         "Microsoft.NETCore.DotNetHostResolver.1.0.1.nupkg.sha512",
@@ -6277,12 +6277,11 @@
         "runtimes/win7-x86/native/sni.dll"
       ]
     },
-    "Sakura.AspNetCore.Mvc.PagedList/2.0.2": {
-      "sha512": "S32yqic32j1dUkEYnuF3qKA4cz224j0Fx7B9ReIqwL4rma7q1jzxn4tdI/SrfZFRQf1nQpstpMVXZypY1cqQRQ==",
+    "Sakura.AspNetCore.Mvc.PagedList/2.0.5": {
+      "sha512": "nk0N4FSOrqmhVhpWwh49lqc/WDLQdHYeSFWtoVzH7Tgw8OkJ42N88fj0Fijd6VQ0zjvwfm2L5iql2a9a3MF8bg==",
       "type": "package",
-      "path": "Sakura.AspNetCore.Mvc.PagedList/2.0.2",
       "files": [
-        "Sakura.AspNetCore.Mvc.PagedList.2.0.2.nupkg.sha512",
+        "Sakura.AspNetCore.Mvc.PagedList.2.0.5.nupkg.sha512",
         "Sakura.AspNetCore.Mvc.PagedList.nuspec",
         "lib/net451/Sakura.AspNetCore.Mvc.PagedList.dll",
         "lib/net451/Sakura.AspNetCore.Mvc.PagedList.xml",
@@ -6312,12 +6311,11 @@
         "lib/netstandard1.0/Sakura.AspNetCore.PagedList.Abstractions.xml"
       ]
     },
-    "Serilog/2.0.0": {
-      "sha512": "PKR/FMxfHOhX1p3Qs54Uv9dJEC09sI91cVz39Jt/2f/BpCYHTt9F1RpogSJTFU9xxW6j9FHd+P7aBcC0qMeuqg==",
+    "Serilog/2.1.0-dev-00670": {
+      "sha512": "zhr+srO8U7hUeI3sKW346goHEuJ41/BsnxABP/Mx2aERPIxPVleEsE07aL4pNROnxoG46PRclhsIwBFtoExUhA==",
       "type": "package",
-      "path": "Serilog/2.0.0",
       "files": [
-        "Serilog.2.0.0.nupkg.sha512",
+        "Serilog.2.1.0-dev-00670.nupkg.sha512",
         "Serilog.nuspec",
         "lib/net45/Serilog.dll",
         "lib/net45/Serilog.xml",
@@ -6377,15 +6375,16 @@
         "lib/netstandard1.3/Serilog.Sinks.Literate.xml"
       ]
     },
-    "Serilog.Sinks.RollingFile/2.0.0": {
-      "sha512": "G2JE6h38OyPWvQXqT8rTf/+LWxUa7T8cbsiuWbk63Tahbbx7TvH4iw5WwhIhptWddpJnrO4xPB46wXn1boVM5Q==",
+    "Serilog.Sinks.RollingFile/2.1.0": {
+      "sha512": "bBCGuXxlLq2yho3QLdRzEsW2sp7zQKcrNb7gmyqLtNwE3K20MolNYWoWqEmZJGGBktPt8quFYQJCFXSPdpGkTQ==",
       "type": "package",
-      "path": "Serilog.Sinks.RollingFile/2.0.0",
       "files": [
-        "Serilog.Sinks.RollingFile.2.0.0.nupkg.sha512",
+        "Serilog.Sinks.RollingFile.2.1.0.nupkg.sha512",
         "Serilog.Sinks.RollingFile.nuspec",
         "lib/net45/Serilog.Sinks.RollingFile.dll",
-        "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll"
+        "lib/net45/Serilog.Sinks.RollingFile.xml",
+        "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll",
+        "lib/netstandard1.3/Serilog.Sinks.RollingFile.xml"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -10970,13 +10969,13 @@
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Tools >= 1.0.0-preview2-final",
       "Microsoft.VisualStudio.Web.CodeGenerators.Mvc >= 1.0.0-preview2-final",
-      "Sakura.AspNetCore.Mvc.PagedList >= 2.0.2",
+      "Sakura.AspNetCore.Mvc.PagedList >= 2.0.5",
       "Sakura.AspNetCore.PagedList >= 1.0.2",
-      "Serilog >= 2.0.0",
+      "Serilog >= 2.1.0-dev-00670",
       "Serilog.Extensions.Logging >= 1.0.0",
       "Serilog.Sinks.ColoredConsole >= 2.0.0",
       "Serilog.Sinks.Literate >= 2.0.0",
-      "Serilog.Sinks.RollingFile >= 2.0.0"
+      "Serilog.Sinks.RollingFile >= 2.1.0"
     ],
     ".NETCoreApp,Version=v1.0": []
   },
